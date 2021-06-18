@@ -2,6 +2,8 @@
 
 React component library with Figmagic. Made for [The newline Guide to React Component Design Systems with Figmagic](https://www.newline.co/courses/newline-guide-to-react-component-design-systems-with-figmagic/).
 
+In the context of the course, it's meant to be used with our [example application](https://github.com/mikaelvesavuori/acmecorp-potted-plants-app).
+
 ## Instructions
 
 - Install with `npm install --force`
