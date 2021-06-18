@@ -25,7 +25,15 @@ In the context of the course, it's meant to be used with our [example applicatio
 - `/.storybook`: Storybook configuration
 - `/src/index.jsx`: Component exports
 - `/src/utils.js`: Basic JavaScript utility functions
-- `/src/components`: Manually assembled complex React components
+- `/src/components`: Manually composed complex React components
 - `/src/elements`: Figmagic-generated React components ("elements")
 - `/src/graphics`: Figmagic-generated graphics
 - `/src/tokens`: Figmagic-generated design tokens
+
+## Figmagic configuration
+
+You need to set the `FIGMA_URL` and `FIGMA_TOKEN`, for example in an `.env` file.
+
+The provided configuration at `figmagic.json` should be a good starting point if you need to modify it.
+
+_Remember to have your `overwrite` object correctly set up if you expect to modify the generated files! The provided config will overwrite anything except the React and Styled Components files._
