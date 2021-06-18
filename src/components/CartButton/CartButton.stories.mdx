@@ -1,0 +1,22 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import CartButton from './CartButton';
+
+<Meta
+  title="components/CartButton"
+  component={CartButton}
+  argTypes={{ }}
+/>
+
+<Canvas>
+  <Story name="Cart Button">
+    <CartButton />
+  </Story>
+  <Story name="Cart Button With Provided Count">
+    <CartButton itemCount="5" />
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={CartButton} />

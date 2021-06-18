@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import Image from './Image';
+
+import ImageDescription from './Image.description.md';
+
+<Meta
+  title="Image"
+  component={Image}
+  argTypes={{ }}
+/>
+
+<ImageDescription />
+
+<Canvas>
+  <Story name="Image" height="400px">
+    {(args) => <Image {...args} />}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={Image} />
