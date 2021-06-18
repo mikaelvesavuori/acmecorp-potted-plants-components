@@ -1,6 +1,6 @@
 {
   "name": "@mikaelvesavuori/acmecorp-potted-plants-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React component library with components generated and/or composed with Figmagic. Made for The newline Guide to React Component Design Systems with Figmagic.",
   "keywords": [
     "acmecorp",
