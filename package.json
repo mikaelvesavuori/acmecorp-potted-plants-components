@@ -41,7 +41,6 @@
     "babel-loader": "latest",
     "babel-plugin-module-resolver": "latest",
     "chromatic": "5",
-    "dotenv-webpack": "latest",
     "eslint": "latest",
     "figmagic": "4",
     "file-loader": "6",
