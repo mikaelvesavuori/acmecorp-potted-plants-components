@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import Card from "elements/Card/Card";
-import Image from "elements/Image/Image";
-import Heading from "elements/Heading/Heading";
-import Description from "elements/Description/Description";
-import Button from "elements/Button/Button";
+import Card from 'elements/Card/Card';
+import Image from 'elements/Image/Image';
+import Heading from 'elements/Heading/Heading';
+import Description from 'elements/Description/Description';
+import Button from 'elements/Button/Button';
 
 import { ProductCardContentsStyle } from './ProductCardCss';
 
