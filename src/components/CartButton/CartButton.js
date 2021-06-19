@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 import CartSymbol from 'elements/CartSymbol/CartSymbol';
 
-import { CartStyle, CartCountStyle } from './CartButtonCss';
+import { CartButtonStyle, CartButtonCountStyle } from './CartButtonCss';
 
 const CartButton = ({ itemCount = 0}) => (
-  <div style={CartStyle}>
+  <div style={CartButtonStyle}>
     <a href="/checkout">
-      <div style={CartCountStyle}>
+      <div style={CartButtonCountStyle}>
         { itemCount }
       </div>
       <CartSymbol />

@@ -1,12 +1,12 @@
 import spacing from 'tokens/spacing';
 
-export const CartStyle = {
+export const CartButtonStyle = {
   position: "fixed",
   bottom: `${spacing.big}`,
   right: `${spacing.big}`
 };
 
-export const CartCountStyle = {
+export const CartButtonCountStyle = {
   // Layout
   position: "absolute",
   width: "2rem",

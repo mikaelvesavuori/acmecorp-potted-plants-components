@@ -24,7 +24,17 @@ In the context of the course, it's meant to be used with our [example applicatio
 
 Starting with the course (or otherwise), you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
 
-Same goes for tokens, elements and graphics.
+Same goes for tokens, elements and graphics. A recommendation would be to keep all the pre-provided code in a folder in the root so you can eyeball it in case you wonder how something was originally built.
+
+## Files that you will change
+
+- `src/elements/Button/Button.js`
+- `src/elements/Button/ButtonStyled.js`
+- `src/elements/Card/CardStyled.js`
+- `src/elements/Description/DescriptionStyled.js`
+- `src/elements/Heading/HeadingStyled.js`
+- `src/elements/Image/Image.js`
+- `src/elements/Image/ImageStyled.js`
 
 ## Structure
 
