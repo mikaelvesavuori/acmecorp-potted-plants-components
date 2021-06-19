@@ -14,7 +14,7 @@ import {
   CheckoutItemPlus
 } from './CheckoutItemCss';
 
-const CheckoutItem = ({ name, count, addItemToCart, removeItemFromCart }) => {
+const CheckoutItem = ({ name, count, price, addItemToCart, removeItemFromCart }) => {
   return (
     <div style={CheckoutItemOuter}>
       <div style={CheckoutItemImage}>
@@ -23,14 +23,14 @@ const CheckoutItem = ({ name, count, addItemToCart, removeItemFromCart }) => {
       <div style={CheckoutItemContents}>
         <div>
           <Description right bold>{name}</Description>
-          <Description right bold purple>{count}</Description>
+          <Description right bold purple>{count} x {price} $</Description>
         </div>
         <div>
           <div style={CheckoutItemMinus}>
-            <Minus id={name} onClick={(e) => removeItemFromCart(e)} />
+            <Minus id={name} onClick={removeItemFromCart} />
           </div>
           <div style={CheckoutItemPlus}>
-            <Plus id={name} onClick={(e) => addItemToCart(e)} />
+            <Plus id={name} onClick={addItemToCart} />
           </div>
         </div>
       </div>
@@ -41,6 +41,7 @@ const CheckoutItem = ({ name, count, addItemToCart, removeItemFromCart }) => {
 CheckoutItem.propTypes = {
 	name: PropTypes.string.isRequired,
 	count: PropTypes.number.isRequired,
+	price: PropTypes.number.isRequired,
   addItemToCart: PropTypes.func.isRequired,
   removeItemFromCart: PropTypes.func.isRequired
 };

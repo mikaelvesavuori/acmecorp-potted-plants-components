@@ -20,6 +20,12 @@ In the context of the course, it's meant to be used with our [example applicatio
 - Run Storybook with `npm start`
 - Create a `.env` file that contains values for `FIGMA_URL`, `FIGMA_TOKEN` and `CHROMATIC_TOKEN`
 
+## Building your own
+
+Starting with the course (or otherwise), you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
+
+Same goes for tokens, elements and graphics.
+
 ## Structure
 
 - `/.storybook`: Storybook configuration

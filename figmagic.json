@@ -20,7 +20,7 @@
   "overwrite": {
     "css": true,
     "description": true,
-    "graphic": true,
+    "graphic": false,
     "react": false,
     "storybook": true,
     "styled": false

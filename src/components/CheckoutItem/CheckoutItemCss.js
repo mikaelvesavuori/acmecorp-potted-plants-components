@@ -2,20 +2,21 @@ import spacing from 'tokens/spacing';
 
 export const CheckoutItemOuter = {
   width: "100%",
-  maxWidth: "500px",
   height: "144px",
   border: "2px solid gray"
 };
 
 export const CheckoutItemImage = {
   float: "left",
-  width: "33%"
+  width: "33%",
+  boxSizing: "border-box"
 };
 
 export const CheckoutItemContents = {
-  width: "60%",
+  width: "67%",
   padding: `${spacing.big}`,
-  float: "right"
+  float: "right",
+  boxSizing: "border-box"
 };
 
 export const CheckoutItemMinus = {
