@@ -30,13 +30,60 @@ In the context of the course, it's meant to be used with our [example applicatio
 - `/src/graphics`: Figmagic-generated graphics
 - `/src/tokens`: Figmagic-generated design tokens
 
+## Provided components
+
+All component code is provided for you, and the course should refer to the very same code you find here.
+
+### Demo
+
+We will recreate this in the course.
+
+- Demo
+
+### Products view
+
+We will recreate this in the course.
+
+- ProductCard
+
+### Checkout view
+
+These are self-study materials.
+
+- CartButton
+- CheckoutForm
+- CheckoutItem
+- IconButton
+
+## Provided elements
+
+These we will recreate in the course.
+
+- Button
+- Card
+- CartSymbol
+- Description
+- Footer
+- Form
+- Header
+- Heading
+- Image
+- Input
+
+The below are graphics elements and are self-study materials since they are only on the "elective" Checkout view.
+
+- Minus
+- Plus
+
 ## Building your own components
 
-Starting with the course (or otherwise), you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
+Starting with the course, you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
 
 Same goes for tokens, elements and graphics. A recommendation would be to keep all the pre-provided code in a folder in the root so you can eyeball it in case you wonder how something was originally built.
 
-## Files that you will change after generating them
+## Files that you will modify after generating them
+
+Files that will be changed while doing the course:
 
 - **Button**: `src/elements/Button/Button.js`
 - **Button**: `src/elements/Button/ButtonStyled.js`
