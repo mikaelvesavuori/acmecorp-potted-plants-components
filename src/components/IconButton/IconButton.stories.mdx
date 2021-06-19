@@ -2,14 +2,42 @@ import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
 
 import IconButton from './IconButton';
 
-<Meta title="components/IconButton" component={IconButton} argTypes={{}} />
+import { addItemToCart, removeItemFromCart } from '../../utils.js';
+
+<Meta
+  title="components/IconButton"
+  component={IconButton}
+  argTypes={{
+    minus: {
+      table: {
+        disable: true
+      }
+    },
+    plus: {
+      table: {
+        disable: true
+      }
+    },
+    clickEvent: {
+      table: {
+        disable: true
+      }
+    }
+  }}
+/>
 
 <Canvas>
-  <Story name="Icon Button Minus">
-    <IconButton minus />
+  <Story
+    name="Icon Button Minus"
+    args={{
+      minus: true,
+      clickEvent: removeItemFromCart
+    }}
+  >
+    {(args) => <IconButton {...args} />}
   </Story>
   <Story name="Icon Button Plus">
-    <IconButton plus />
+    <IconButton plus clickEvent={addItemToCart} />
   </Story>
 </Canvas>
 

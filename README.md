@@ -20,22 +20,6 @@ In the context of the course, it's meant to be used with our [example applicatio
 - Run Storybook with `npm start`
 - Create a `.env` file that contains values for `FIGMA_URL`, `FIGMA_TOKEN` and `CHROMATIC_TOKEN`
 
-## Building your own
-
-Starting with the course (or otherwise), you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
-
-Same goes for tokens, elements and graphics. A recommendation would be to keep all the pre-provided code in a folder in the root so you can eyeball it in case you wonder how something was originally built.
-
-## Files that you will change
-
-- `src/elements/Button/Button.js`
-- `src/elements/Button/ButtonStyled.js`
-- `src/elements/Card/CardStyled.js`
-- `src/elements/Description/DescriptionStyled.js`
-- `src/elements/Heading/HeadingStyled.js`
-- `src/elements/Image/Image.js`
-- `src/elements/Image/ImageStyled.js`
-
 ## Structure
 
 - `/.storybook`: Storybook configuration
@@ -45,6 +29,22 @@ Same goes for tokens, elements and graphics. A recommendation would be to keep a
 - `/src/elements`: Figmagic-generated React components ("elements")
 - `/src/graphics`: Figmagic-generated graphics
 - `/src/tokens`: Figmagic-generated design tokens
+
+## Building your own components
+
+Starting with the course (or otherwise), you should move out the `src/components` folder to the root (or delete it) so you can see the more basic elements working on their own first.
+
+Same goes for tokens, elements and graphics. A recommendation would be to keep all the pre-provided code in a folder in the root so you can eyeball it in case you wonder how something was originally built.
+
+## Files that you will change after generating them
+
+- **Button**: `src/elements/Button/Button.js`
+- **Button**: `src/elements/Button/ButtonStyled.js`
+- **Card**: `src/elements/Card/CardStyled.js`
+- **Description**: `src/elements/Description/DescriptionStyled.js`
+- **Heading**: `src/elements/Heading/HeadingStyled.js`
+- **Image**: `src/elements/Image/Image.js`
+- **Image**: `src/elements/Image/ImageStyled.js`
 
 ## Figmagic configuration
 
