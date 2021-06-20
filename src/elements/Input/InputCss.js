@@ -15,7 +15,7 @@ const InputCss = `
   padding-left: ${spacing.small};
   padding-right: ${spacing.small};
   height: ${spacing.tall};
-  background-color: ${colors.white};
+  background-color: ${colors.pureWhite};
   border-color: ${colors.gray};
   border-radius: ${radii.rounded};
   font-size: ${fontSizes.regular};

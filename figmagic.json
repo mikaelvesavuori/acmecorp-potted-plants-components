@@ -22,7 +22,7 @@
     "description": true,
     "graphic": true,
     "react": false,
-    "storybook": true,
+    "storybook": false,
     "styled": false
   },
   "skipFileGeneration": {

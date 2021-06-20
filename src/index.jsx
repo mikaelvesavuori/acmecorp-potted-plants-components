@@ -5,7 +5,6 @@ export { default as Demo } from './components/Demo/Demo';
 export { default as CartButton } from './components/CartButton/CartButton';
 export { default as CheckoutForm } from './components/CheckoutForm/CheckoutForm';
 export { default as CheckoutItem } from './components/CheckoutItem/CheckoutItem';
-export { default as Demo } from './components/Demo/Demo';
 export { default as FormInput } from './components/FormInput/FormInput';
 export { default as IconButton } from './components/IconButton/IconButton';
 export { default as ProductCard } from './components/ProductCard/ProductCard';

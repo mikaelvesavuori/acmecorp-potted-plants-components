@@ -94,10 +94,14 @@ Files that will be modified while doing the course:
 - **Button**: `src/elements/Button/Button.js`
 - **Button**: `src/elements/Button/ButtonStyled.js`
 - **Card**: `src/elements/Card/CardStyled.js`
+- **Card**: `src/elements/Card/Card.stories.mdx`
 - **Description**: `src/elements/Description/DescriptionStyled.js`
+- **Footer**: `src/elements/Footer/FooterStyled.js`
 - **Heading**: `src/elements/Heading/HeadingStyled.js`
 - **Image**: `src/elements/Image/Image.js`
 - **Image**: `src/elements/Image/ImageStyled.js`
+- **Image**: `src/elements/Image/Image.stories.mdx`
+- **Input**: `src/elements/Input/InputStyled.js`
 - **Label**: `src/elements/Label/LabelStyled.js`
 - **Form**: `src/elements/Form/FormStyled.js`
 

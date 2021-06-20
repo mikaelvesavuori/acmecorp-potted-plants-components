@@ -4,17 +4,13 @@ import Card from './Card';
 
 import CardDescription from './Card.description.md';
 
-<Meta
-  title="Card"
-  component={Card}
-  argTypes={{ }}
-/>
+<Meta title="Card" component={Card} argTypes={{}} />
 
 <CardDescription />
 
 <Canvas>
   <Story name="Card" height="400px">
-    {(args) => <Card {...args} />}
+    {(args) => <Card {...args}>Card contents here</Card>}
   </Story>
 </Canvas>
 

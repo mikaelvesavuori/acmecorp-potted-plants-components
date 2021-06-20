@@ -15,7 +15,7 @@ const HeadingCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  height: 42px;
+  height: 40px;
 `;
 
 export default HeadingCss;
