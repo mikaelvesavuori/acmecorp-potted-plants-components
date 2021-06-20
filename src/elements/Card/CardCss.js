@@ -9,7 +9,7 @@ const CardCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  height: 416px;
+  height: 488px;
   background-color: ${colors.white};
   border-radius: ${radii.rounded};
   box-shadow: ${shadows.sharp};

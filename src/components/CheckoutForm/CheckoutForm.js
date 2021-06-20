@@ -1,21 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Form from 'elements/Form/Form';
+import FormInput from 'components/FormInput/FormInput';
+import Button from 'elements/Button/Button';
+
+import CheckoutFormStyle from './CheckoutFormCss';
+
 const CheckoutForm = () => (
-  <form>
-    <label htmlFor="input-name">Name</label>
-    <input name="input-name" />
+  <Form>
+    <FormInput label="Name" />
+    <FormInput label="Street address" type="address" />
+    <FormInput label="Email address" type="email" />
+    <FormInput label="Telephone number" type="tel" />
+    <FormInput label="City" />
 
-    <label htmlFor="input-address">Address</label>
-    <input name="input-address" />
-
-    <label htmlFor="input-city">City</label>
-    <input name="input-city" />
-
-    <hr />
-
-    <button type="submit">Submit</button>
-  </form>
+    <Button>Place order</Button>
+  </Form>
 );
 
 CheckoutForm.propTypes = {};

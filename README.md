@@ -30,6 +30,12 @@ In the context of the course, it's meant to be used with our [example applicatio
 - `/src/graphics`: Figmagic-generated graphics
 - `/src/tokens`: Figmagic-generated design tokens
 
+## Component architecture
+
+The very short version is that `elements` are generated files. Here we only change React and/or Styled Components files, so they can be styled correctly and can become functional.
+
+In `components` we compose new items out of the elements and whatever wrapping code we might need, with DIVs and CSS etc.
+
 ## Provided components
 
 All component code is provided for you, and the course should refer to the very same code you find here.
@@ -83,7 +89,7 @@ Same goes for tokens, elements and graphics. A recommendation would be to keep a
 
 ## Files that you will modify after generating them
 
-Files that will be changed while doing the course:
+Files that will be modified while doing the course:
 
 - **Button**: `src/elements/Button/Button.js`
 - **Button**: `src/elements/Button/ButtonStyled.js`
@@ -92,6 +98,8 @@ Files that will be changed while doing the course:
 - **Heading**: `src/elements/Heading/HeadingStyled.js`
 - **Image**: `src/elements/Image/Image.js`
 - **Image**: `src/elements/Image/ImageStyled.js`
+- **Label**: `src/elements/Label/LabelStyled.js`
+- **Form**: `src/elements/Form/FormStyled.js`
 
 ## Figmagic configuration
 

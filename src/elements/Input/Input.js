@@ -3,8 +3,15 @@ import PropTypes from 'prop-types';
 
 import InputStyled from './InputStyled';
 
-const Input = (props) => <InputStyled minLength="2" className="normal" type="text" placeholder="Some placeholder..." {...props} />;
+const Input = ({ name, type }) => <InputStyled minLength="2" className="normal" name={ name } type={ type } placeholder="Some placeholder..." />;
 
-Input.propTypes = {};
+Input.default = {
+  type: "text"
+};
+
+Input.propTypes = {
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string
+};
 
 export default Input;
