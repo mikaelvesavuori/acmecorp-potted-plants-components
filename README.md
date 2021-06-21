@@ -51,12 +51,13 @@ We will recreate this in the course.
 We will recreate this in the course.
 
 - ProductCard
+- CartButton
 
 ### Checkout view
 
 These are self-study materials.
 
-- CartButton
+- FormInput
 - CheckoutForm
 - CheckoutItem
 - IconButton
@@ -101,6 +102,7 @@ Files that will be modified while doing the course:
 - **Image**: `src/elements/Image/Image.js`
 - **Image**: `src/elements/Image/ImageStyled.js`
 - **Image**: `src/elements/Image/Image.stories.mdx`
+- **Input**: `src/elements/Input/Input.js`
 - **Input**: `src/elements/Input/InputStyled.js`
 - **Label**: `src/elements/Label/LabelStyled.js`
 - **Form**: `src/elements/Form/FormStyled.js`

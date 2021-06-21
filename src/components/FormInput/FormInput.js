@@ -23,6 +23,3 @@ FormInput.propTypes = {
 };
 
 export default FormInput;
-
-//<label htmlFor="input-name">Name</label>
-//<input name="input-name" />

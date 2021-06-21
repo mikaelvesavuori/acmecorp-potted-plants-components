@@ -5,7 +5,7 @@ import Button from 'elements/Button/Button';
 import Form from 'elements/Form/Form';
 import FormInput from 'components/FormInput/FormInput';
 
-const CheckoutForm = () => (
+const CheckoutForm = ({ submitOrderFunction }) => (
   <Form>
     <FormInput label="Name" />
     <FormInput label="Street address" type="address" />
@@ -13,15 +13,16 @@ const CheckoutForm = () => (
     <FormInput label="Email address" type="email" />
     <FormInput label="Telephone number" type="tel" />
 
-    <Button onClickEvent={ (e) => submitForm(e) }>Place order</Button>
+    <div style={{
+      marginTop: "3rem"
+    }}>
+     <Button onClickEvent={ submitOrderFunction }>Place order</Button>
+    </div>
   </Form>
 );
 
-const submitForm = (e) => {
-  e.preventDefault();
-  alert("Thank you for your order!");
-}
-
-CheckoutForm.propTypes = {};
+CheckoutForm.propTypes = {
+  submitOrderFunction: PropTypes.func.isRequired
+};
 
 export default CheckoutForm;

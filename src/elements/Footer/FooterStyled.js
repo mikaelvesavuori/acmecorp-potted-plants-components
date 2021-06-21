@@ -10,7 +10,6 @@ const FooterStyled = styled.footer`
   width: 98%;
   position: absolute;
   bottom: ${spacing.big};
-
 `;
 
 export default FooterStyled;

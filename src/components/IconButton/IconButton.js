@@ -6,8 +6,8 @@ import Plus from 'elements/Plus/Plus';
 
 import { IconButtonStyle } from './IconButtonCss';
 
-const IconButton = ({ minus, plus, clickEvent}) => (
-  <div style={ IconButtonStyle } onClick={clickEvent}>
+const IconButton = ({ minus, plus, onClickEvent}) => (
+  <div style={ IconButtonStyle } onClick={onClickEvent}>
     { minus && <Minus /> }
     { plus && <Plus /> }
   </div>
@@ -16,7 +16,7 @@ const IconButton = ({ minus, plus, clickEvent}) => (
 IconButton.propTypes = {
   minus: PropTypes.bool,
   plus: PropTypes.bool,
-  clickEvent: PropTypes.func.isRequired
+  onClickEvent: PropTypes.func.isRequired
 };
 
 export default IconButton;

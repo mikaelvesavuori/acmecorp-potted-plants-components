@@ -4,17 +4,13 @@ import Button from './Button';
 
 import ButtonDescription from './Button.description.md';
 
-<Meta
-  title="Button"
-  component={Button}
-  argTypes={{ }}
-/>
+<Meta title="Button" component={Button} argTypes={{}} />
 
 <ButtonDescription />
 
 <Canvas>
   <Story name="Button" height="400px">
-    {(args) => <Button {...args} />}
+    {(args) => <Button onClick={() => alert('Clicked')} {...args} />}
   </Story>
 </Canvas>
 

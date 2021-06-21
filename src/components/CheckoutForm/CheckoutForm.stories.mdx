@@ -2,15 +2,11 @@ import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
 
 import CheckoutForm from './CheckoutForm';
 
-<Meta
-  title="components/CheckoutForm"
-  component={CheckoutForm}
-  argTypes={{ }}
-/>
+<Meta title="components/CheckoutForm" component={CheckoutForm} argTypes={{}} />
 
 <Canvas>
   <Story name="Checkout Form">
-    <CheckoutForm />
+    <CheckoutForm submitOrderFunction={() => alert('Placed order!')} />
   </Story>
 </Canvas>
 

@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 
 import Image from 'elements/Image/Image';
 import Description from 'elements/Description/Description';
-import Minus from 'elements/Minus/Minus';
-import Plus from 'elements/Plus/Plus';
+import IconButton from 'components/IconButton/IconButton';
 
 import {
   CheckoutItemOuter,
@@ -27,10 +26,10 @@ const CheckoutItem = ({ name, count, price, addItemToCart, removeItemFromCart })
         </div>
         <div>
           <div style={CheckoutItemMinus}>
-            <Minus id={name} onClick={removeItemFromCart} />
+            <IconButton minus onClickEvent={removeItemFromCart} />
           </div>
           <div style={CheckoutItemPlus}>
-            <Plus id={name} onClick={addItemToCart} />
+            <IconButton plus onClickEvent={addItemToCart} />
           </div>
         </div>
       </div>

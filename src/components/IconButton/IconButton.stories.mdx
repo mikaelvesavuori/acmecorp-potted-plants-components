@@ -18,7 +18,7 @@ import { addItemToCart, removeItemFromCart } from '../../utils.js';
         disable: true
       }
     },
-    clickEvent: {
+    onClickEvent: {
       table: {
         disable: true
       }
@@ -31,13 +31,13 @@ import { addItemToCart, removeItemFromCart } from '../../utils.js';
     name="Icon Button Minus"
     args={{
       minus: true,
-      clickEvent: removeItemFromCart
+      onClickEvent: removeItemFromCart
     }}
   >
     {(args) => <IconButton {...args} />}
   </Story>
   <Story name="Icon Button Plus">
-    <IconButton plus clickEvent={addItemToCart} />
+    <IconButton plus onClickEvent={addItemToCart} />
   </Story>
 </Canvas>
 
