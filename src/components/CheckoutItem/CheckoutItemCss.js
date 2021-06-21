@@ -3,7 +3,8 @@ import spacing from 'tokens/spacing';
 export const CheckoutItemOuter = {
   width: "100%",
   height: "144px",
-  border: "2px solid gray"
+  border: "2px solid gray",
+  marginBottom: `${spacing.big}`
 };
 
 export const CheckoutItemImage = {

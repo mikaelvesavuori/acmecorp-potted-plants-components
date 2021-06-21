@@ -23,9 +23,9 @@ import { addItemToCart, removeItemFromCart } from '../../utils.js';
 
 <Canvas>
   <Story
-    name="CheckoutItem"
+    name="CheckoutItem Single"
     args={{
-      name: 'Name',
+      name: 'Exclusive Bonsai',
       count: 1,
       price: 100,
       addItemToCart: addItemToCart,
@@ -33,6 +33,23 @@ import { addItemToCart, removeItemFromCart } from '../../utils.js';
     }}
   >
     {(args) => <CheckoutItem {...args} />}
+  </Story>
+  <Story
+    name="CheckoutItem Multiple"
+    args={{
+      name: 'Monstera',
+      count: 3,
+      price: 250,
+      addItemToCart: addItemToCart,
+      removeItemFromCart: removeItemFromCart
+    }}
+  >
+    {(args) => (
+      <>
+        <CheckoutItem {...args} />
+        <CheckoutItem {...args} />
+      </>
+    )}
   </Story>
 </Canvas>
 

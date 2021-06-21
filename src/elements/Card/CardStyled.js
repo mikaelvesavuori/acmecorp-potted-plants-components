@@ -11,7 +11,7 @@ const CardStyled = styled.div`
   max-width: 320px;
   min-width: 320px;
   flex: 1 0 33%;
-  margin-bottom: ${spacing.big};
+  margin-bottom: ${spacing.tall};
 `;
 
 export default CardStyled;

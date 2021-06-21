@@ -8,7 +8,6 @@ import spacing from 'tokens/spacing';
 const FooterStyled = styled.footer`
   ${FooterCss};
   width: 98%;
-  position: absolute;
   bottom: ${spacing.big};
 `;
 
