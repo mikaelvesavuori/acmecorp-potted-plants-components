@@ -20,4 +20,4 @@ jobs:
       - name: Chromatic
         run: |
           npm install --save-dev chromatic
-          npx chromatic --project-token=98fd2b6413cf
+          npx chromatic --project-token=${{ secrets.CHROMATIC_TOKEN }}
