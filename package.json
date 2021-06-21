@@ -15,7 +15,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && npx webpack",
-    "prepublish": "npm run figmagic && npm run build",
+    "prepublishOnly": "npm run figmagic && npm run build",
     "figmagic:init": "npx figmagic init",
     "figmagic": "npx figmagic",
     "start": "start-storybook -p 6006",
