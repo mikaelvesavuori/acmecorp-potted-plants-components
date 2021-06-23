@@ -4,7 +4,17 @@ import ProductCard from './ProductCard';
 
 import { addItemToCart } from '../../utils.js';
 
-<Meta title="components/ProductCard" component={ProductCard} argTypes={{}} />
+<Meta
+  title="components/ProductCard"
+  component={ProductCard}
+  argTypes={{
+    addItemToCart: {
+      table: {
+        disable: true
+      }
+    }
+  }}
+/>
 
 <Canvas>
   <Story name="Product Card Single">

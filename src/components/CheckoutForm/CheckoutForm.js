@@ -22,6 +22,9 @@ const CheckoutForm = ({ submitOrderFunction }) => (
 );
 
 CheckoutForm.propTypes = {
+  /**
+   * Function to handle submitting the order.
+   */
   submitOrderFunction: PropTypes.func.isRequired
 };
 

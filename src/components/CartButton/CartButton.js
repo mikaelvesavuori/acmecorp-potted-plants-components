@@ -17,6 +17,9 @@ const CartButton = ({ itemCount = 0}) => (
 );
 
 CartButton.propTypes = {
+  /**
+   * Number of items in cart.
+   */
   itemCount: PropTypes.number
 };
 

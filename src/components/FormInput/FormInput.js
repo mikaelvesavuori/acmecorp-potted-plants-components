@@ -18,7 +18,13 @@ FormInput.default = {
 };
 
 FormInput.propTypes = {
+  /**
+   * The label for this input.
+   */
   label: PropTypes.string.isRequired,
+  /**
+   * The type on this input.
+   */
   type: PropTypes.string
 };
 

@@ -5,11 +5,14 @@ import CartButton from './CartButton';
 <Meta title="components/CartButton" component={CartButton} argTypes={{}} />
 
 <Canvas>
-  <Story name="Cart Button">
-    <CartButton />
-  </Story>
-  <Story name="Cart Button With Provided Count">
-    <CartButton itemCount="5" />
+  <Story name="Cart Button">{(args) => <CartButton {...args} />}</Story>
+  <Story
+    name="Cart Button With Provided Count"
+    args={{
+      itemCount: 5
+    }}
+  >
+    {(args) => <CartButton {...args} />}
   </Story>
 </Canvas>
 

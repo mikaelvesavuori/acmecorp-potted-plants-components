@@ -38,10 +38,25 @@ const CheckoutItem = ({ name, count, price, addItemToCart, removeItemFromCart })
 };
 
 CheckoutItem.propTypes = {
+  /**
+   * Name of product.
+   */
 	name: PropTypes.string.isRequired,
+  /**
+   * Quantity of this product.
+   */
 	count: PropTypes.number.isRequired,
+  /**
+   * Price of the product.
+   */
 	price: PropTypes.number.isRequired,
+  /**
+   * Function to add a single item of this product to the cart.
+   */
   addItemToCart: PropTypes.func.isRequired,
+  /**
+   * Function to remove a single item of this product to the cart.
+   */
   removeItemFromCart: PropTypes.func.isRequired
 };
 

@@ -3,4 +3,4 @@
 
 # Button
 
-This button should be used in most cases when the user is not to be informed or warned of anything.
+The Button is our standard component for allowing a user to, for example, add something to their cart.

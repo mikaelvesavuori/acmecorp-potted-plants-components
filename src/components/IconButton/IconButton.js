@@ -14,8 +14,17 @@ const IconButton = ({ minus, plus, onClickEvent}) => (
 );
 
 IconButton.propTypes = {
+  /**
+   * Is this a "minus" (remove) symbol?
+   */
   minus: PropTypes.bool,
+  /**
+   * Is this a "plus" (add) symbol?
+   */
   plus: PropTypes.bool,
+  /**
+   * The function to call when clicking this button.
+   */
   onClickEvent: PropTypes.func.isRequired
 };
 
