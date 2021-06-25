@@ -6,7 +6,7 @@ on:
       - "v*"
 
 jobs:
-  build-components:
+  release-components:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,6 +17,10 @@ jobs:
       - name: Build components
         run: |
           npm run build
+      - name: Chromatic
+        run: |
+          npm install --save-dev chromatic
+          npx chromatic --project-token=${{ secrets.CHROMATIC_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           node-version: 14
