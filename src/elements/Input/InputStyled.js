@@ -8,7 +8,6 @@ import radii from 'tokens/radii';
 // Extend the below as needed
 const InputStyled = styled.input`
   border: 1px solid;
-
   :focus {
     outline: 1px solid ${colors.purple};
     border-radius: ${radii.sharp};
