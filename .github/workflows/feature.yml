@@ -3,7 +3,6 @@ name: 'Build components (new feature/change)'
 on:
   push:
     branches:
-      - /refs/heads/*
       - !main
 
 jobs:
