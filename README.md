@@ -48,14 +48,10 @@ We will recreate this in the course.
 
 ### Products view
 
-We will recreate this in the course.
-
 - ProductCard
 - CartButton
 
 ### Checkout view
-
-These are self-study materials.
 
 - FormInput
 - CheckoutForm
@@ -64,7 +60,7 @@ These are self-study materials.
 
 ## Provided elements
 
-These we will recreate in the course.
+These will be recreated in the course.
 
 - Button
 - Card
@@ -76,9 +72,6 @@ These we will recreate in the course.
 - Heading
 - Image
 - Input
-
-The below are graphics elements and are self-study materials since they are only on the "elective" Checkout view.
-
 - Minus
 - Plus
 
