@@ -1,5 +1,7 @@
 # ACME Corp. Potted Plants - Component Library
 
+**There is also a [starter package](https://github.com/mikaelvesavuori/acmecorp-potted-plants-components-starter)**.
+
 React component library with components generated and/or composed with Figmagic. Made for [The newline Guide to React Component Design Systems with Figmagic](https://www.newline.co/courses/newline-guide-to-react-component-design-systems-with-figmagic/).
 
 In the context of the course, it's meant to be used with our [example application](https://github.com/mikaelvesavuori/acmecorp-potted-plants-app).
@@ -16,7 +18,8 @@ In the context of the course, it's meant to be used with our [example applicatio
 
 ## Instructions
 
-- Install with `npm install --force`
+- Install Storybook with `npx sb init -f`
+- Install dependencies with `npm install --force`
 - Run Storybook with `npm start`
 - Create a `.env` file that contains values for `FIGMA_URL`, `FIGMA_TOKEN` and `CHROMATIC_TOKEN`
 

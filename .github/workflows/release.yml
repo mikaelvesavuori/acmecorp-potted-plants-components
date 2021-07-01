@@ -19,6 +19,7 @@ jobs:
           npm install react react-dom styled-components prop-types --save
       - name: Build components
         run: |
+          npx figmagic
           npm run build
       - name: Chromatic
         run: |

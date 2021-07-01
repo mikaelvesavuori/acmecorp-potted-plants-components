@@ -19,7 +19,8 @@
     "figmagic:init": "npx figmagic init",
     "figmagic": "npx figmagic",
     "start": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006"
   },
   "resolutions": {
     "react": "17"
@@ -34,10 +35,10 @@
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
-    "@storybook/addon-actions": "^6.2.9",
-    "@storybook/addon-essentials": "^6.2.9",
-    "@storybook/addon-links": "^6.2.9",
-    "@storybook/react": "^6.2.9",
+    "@storybook/addon-actions": "^6.3.1",
+    "@storybook/addon-essentials": "^6.3.1",
+    "@storybook/addon-links": "^6.3.1",
+    "@storybook/react": "^6.3.1",
     "babel-loader": "latest",
     "babel-plugin-module-resolver": "latest",
     "chromatic": "5",
@@ -48,5 +49,6 @@
     "webpack": "^4",
     "webpack-cli": "4",
     "webpack-dev-server": "3"
-  }
+  },
+  "dependencies": {}
 }
