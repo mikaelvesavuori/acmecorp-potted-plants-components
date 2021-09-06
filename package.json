@@ -1,6 +1,6 @@
 {
   "name": "@mikaelvesavuori/acmecorp-potted-plants-components",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "React component library with components generated and/or composed with Figmagic. Made for The newline Guide to React Component Design Systems with Figmagic.",
   "keywords": [
     "acmecorp",
@@ -15,6 +15,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && npx webpack",
+    "init": "npx sb init -f && npm install --force",
     "prepublishOnly": "npm run figmagic && npm run build",
     "figmagic:init": "npx figmagic init",
     "figmagic": "npx figmagic",
@@ -32,21 +33,21 @@
     "styled-components": "5"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@babel/preset-react": "latest",
-    "@storybook/addon-actions": "^6.3.1",
-    "@storybook/addon-essentials": "^6.3.1",
-    "@storybook/addon-links": "^6.3.1",
-    "@storybook/react": "^6.3.1",
-    "babel-loader": "latest",
-    "babel-plugin-module-resolver": "latest",
+    "@babel/core": "7",
+    "@babel/preset-env": "7",
+    "@babel/preset-react": "7",
+    "@storybook/addon-actions": "6.3.8",
+    "@storybook/addon-essentials": "6.3.8",
+    "@storybook/addon-links": "6.3.8",
+    "@storybook/react": "6.3.8",
+    "babel-loader": "8",
+    "babel-plugin-module-resolver": "4",
     "chromatic": "5",
     "eslint": "latest",
     "figmagic": "4",
     "file-loader": "6",
     "prettier": "latest",
-    "webpack": "^4",
+    "webpack": "4",
     "webpack-cli": "4",
     "webpack-dev-server": "3"
   },
