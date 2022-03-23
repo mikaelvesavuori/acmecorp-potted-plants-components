@@ -2,6 +2,8 @@
 
 **There is also a [starter package](https://github.com/mikaelvesavuori/acmecorp-potted-plants-components-starter)**.
 
+**Note that Node 17 may not work with some of the deeper dependencies; if you get errors, please use Node 16 instead. Consider using [n](https://github.com/tj/n) or [nvm](https://github.com/nvm-sh/nvm) for this**.
+
 React component library with components generated and/or composed with Figmagic. Made for [The newline Guide to React Component Design Systems with Figmagic](https://www.newline.co/courses/newline-guide-to-react-component-design-systems-with-figmagic/).
 
 In the context of the course, it's meant to be used with our [example application](https://github.com/mikaelvesavuori/acmecorp-potted-plants-app).
