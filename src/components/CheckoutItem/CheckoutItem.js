@@ -21,11 +21,11 @@ const CheckoutItem = ({ name, count, price, imageUrl, addItemToCart, removeItemF
         <Image hardCorners height="144px" url={imageUrl} />
       </div>
       <div style={CheckoutItemContents}>
-        <div style={Ellipsis}>
-          <Description right bold>
+        <div>
+          <Description right bold style={Ellipsis}>
             {name}
           </Description>
-          <Description right bold purple>
+          <Description right bold purple style={Ellipsis}>
             {count} x {price} $
           </Description>
         </div>
