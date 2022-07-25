@@ -6,10 +6,10 @@ import Plus from 'elements/Plus/Plus';
 
 import { IconButtonStyle } from './IconButtonCss';
 
-const IconButton = ({ minus, plus, onClickEvent}) => (
-  <div style={ IconButtonStyle } onClick={onClickEvent}>
-    { minus && <Minus /> }
-    { plus && <Plus /> }
+const IconButton = ({ minus, plus, onClickEvent }) => (
+  <div style={IconButtonStyle} onClick={onClickEvent}>
+    {minus && <Minus />}
+    {plus && <Plus />}
   </div>
 );
 

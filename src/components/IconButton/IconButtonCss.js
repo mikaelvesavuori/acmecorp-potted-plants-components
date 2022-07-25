@@ -1,4 +1,4 @@
 export const IconButtonStyle = {
-  width: "40px",
-  cursor: "pointer"
-}
+  width: '40px',
+  cursor: 'pointer'
+};

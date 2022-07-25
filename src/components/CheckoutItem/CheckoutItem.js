@@ -10,19 +10,24 @@ import {
   CheckoutItemImage,
   CheckoutItemContents,
   CheckoutItemMinus,
-  CheckoutItemPlus
+  CheckoutItemPlus,
+  Ellipsis
 } from './CheckoutItemCss';
 
-const CheckoutItem = ({ name, count, price, addItemToCart, removeItemFromCart }) => {
+const CheckoutItem = ({ name, count, price, imageUrl, addItemToCart, removeItemFromCart }) => {
   return (
     <div style={CheckoutItemOuter}>
       <div style={CheckoutItemImage}>
-        <Image hardCorners height="144px" url="https://images.unsplash.com/photo-1508013861974-9f6347163ebe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=30" />
+        <Image hardCorners height="144px" url={imageUrl} />
       </div>
       <div style={CheckoutItemContents}>
-        <div>
-          <Description right bold>{name}</Description>
-          <Description right bold purple>{count} x {price} $</Description>
+        <div style={Ellipsis}>
+          <Description right bold>
+            {name}
+          </Description>
+          <Description right bold purple>
+            {count} x {price} $
+          </Description>
         </div>
         <div>
           <div style={CheckoutItemMinus}>
@@ -34,22 +39,26 @@ const CheckoutItem = ({ name, count, price, addItemToCart, removeItemFromCart })
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 CheckoutItem.propTypes = {
   /**
    * Name of product.
    */
-	name: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   /**
    * Quantity of this product.
    */
-	count: PropTypes.number.isRequired,
+  count: PropTypes.number.isRequired,
   /**
    * Price of the product.
    */
-	price: PropTypes.number.isRequired,
+  price: PropTypes.number.isRequired,
+  /**
+   * The URL for this image.
+   */
+  imageUrl: PropTypes.string.isRequired,
   /**
    * Function to add a single item of this product to the cart.
    */

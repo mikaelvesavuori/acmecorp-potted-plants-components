@@ -9,6 +9,8 @@ module.exports = {
       options: { transcludeMarkdown: true },
     },
     "@storybook/addon-links",
-    "@storybook/addon-essentials"
-  ]
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions"
+  ],
+  "framework": "@storybook/react"
 }
